@@ -3,7 +3,8 @@ Automated log-file analysis for Varian linacs (TrueBeam, Halcyon, Edge)
 
 
 
-![MainScreen](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/57b6a1b9-0dda-4f17-9f93-0c3b1e068f40)
+
+![MainScreen](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/2624aeab-e177-479e-8876-1ded36490ce2)
 
 
 
