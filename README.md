@@ -2,9 +2,9 @@
 
 Sentinel is an automated log-file analysis application for Varian linacs (TrueBeam, Halcyon, Edge). 
 
-NOYE: *It works for Elekta machines also but only if you have a way to get iCom-Vx files automatically pushed to a folder on the network that Sentinel can see.*
+NOYE: *It works for Elekta machines also but only if you have a way to get iCom-Vx files automatically pushed to a folder on the network that Sentinel can see.
 
-If you have a simple method to do this, it works for Elekta machines also.
+If you have a simple method to do this, it works for Elekta machines also!*
 
 # Introduction
 
