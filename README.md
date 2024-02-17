@@ -35,8 +35,10 @@ I recommend running Sentinel on an always-on decent modern Windows PC in your cl
 7. Click the **Start Monitoring** toggle and switch to the ON position to begin monitoring.
 8. Toggle the **Email Alerts** switch to ON if you would like to receive email notifications for failed fields. NOTE that there is currently a problem where if the Windows PC is on the lock screen, no emails will be sent and the software will crash. If you cannot avoid lock screen timeouts, then I suggest turning email alerts off. Email alerts also require Microsoft Outlook to run.
 9. That's it!
+    
+![Config](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/6a153d0d-749b-42dd-9ce8-cd6f32e0aaeb)
 
-![Config](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/90356f3b-5cf5-4e0f-82d7-4925d1a16b4c)
+
 
 # Exploring your data
 
