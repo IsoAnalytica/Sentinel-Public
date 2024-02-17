@@ -12,7 +12,7 @@ Sentinel is capable of monitoring up to 25 linacs simultaneously (maybe more - b
 
 All this data is processed and recorded for every patient, every fraction, and every beam on every linac in a table and CSV file so that some "big data" type analysis can be done, and Sentinel provides the tools to go down this rabbit hole if you wish.
 
-Sentinel also processes incoming RP DICOM plan files that are sent to a different directory that is supplied by the user. I have trained a Sentinel AI on these fluence images against PASS FAIL gamma criteria, with the hope to immediately tell whether a given treatment plan may fail QA before it even being measured or delivered. I'm still testing that though so maybe don't take the AI's word for it just yet!
+Sentinel also processes incoming RP DICOM plan files that are sent to a different directory that is supplied by the user. I have trained a Sentinel AI on these fluence images against PASS FAIL gamma criteria, with the hope to immediately tell whether a given treatment plan may fail QA before it even being measured or delivered. I'm still testing that though so maybe don't take the AI's word for it just yet and it might not even be a viable method... we'll see!
 
 
 ![MainScreen](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/2624aeab-e177-479e-8876-1ded36490ce2)
@@ -67,3 +67,5 @@ Sentinel provides several different apps to explore your data. **MachineView** l
 # Parting Words
 
 If you enjoy this software and you find it useful please share it and let me know on Reddit or here on Git! I hope you enjoy exploring your machine performance and having realtime peace of mind while Sentinel watches over every patient's treatment.
+
+if you'd like to help with creating a method to get the Elekta iCom files automatically off the linac and onto the clinic network that would solve the Varian only problem and all machines would be covered :)
