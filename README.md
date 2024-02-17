@@ -42,7 +42,7 @@ I recommend running Sentinel on an always-on decent modern Windows PC in your cl
 
 NOTE: I'm actively working on these so I will update and fix any bugs (which there are) as they are reported and improve these with some nice pdf reporting in time.
 
-Sentinel provides several different apps to explore your data. **MachineView** lets you compare specific machine results and provides an overview of your machine results. To use MachineView click the MachineView button. Then select your machine from the drop-down list. You can then toggle Machine Data OVerlay to select multiple other machines also. Click Reset Filters to reset the state.
+Sentinel provides several different apps to explore your data. **MachineView** lets you compare specific machine results and provides an overview of your machine results. To use MachineView click the MachineView button. Then select your machine from the drop-down list. You can then toggle Machine Data Overlay to select multiple other machines also. Click Reset Filters to reset the state.
 
 ![MachineView](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/4725920c-30be-422f-87ca-fb055759fe53)
 
