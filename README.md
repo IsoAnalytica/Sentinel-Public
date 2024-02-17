@@ -16,7 +16,22 @@ Sentinel also processes incoming RP DICOM plan files that are sent to a differen
 
 # How it works
 
+Sentinel monitors two directories, one where your plans are exported in DICOM format (...RP.dcm) and the other is your TrueBeams TDS folders. If all your machines share the same location for their TDS folders, e.g. .../VA_TRANSFER/TDS the point Sentinel to that directory and will monitor all sub-directories for incoming machine trajectory files. As the logs come in Sentinel automatically processes them and compares the planned to actual positions of all mechanical axes. Sentinel generates and saves .png image files of the expected fluence map, the actual fluence map, and the gamma map. Results for each field and the sum of the delivered fields are saved in a file called TableData.csv in the program's install directory. As plan DICOM files come in following export from the TPS to the nominated directory, a prediction is made whether they will PASS or FAIL the delivery. This is based on comparing the planned fluence images for each field to a neural network result following input of that fluence image. NOTE: This is still being tested. Each plan check result (PASS/FAIL) is stored in a PlanCheckResult.csv file in the install directory. These .csv files can be opened in Excel or any text editor for further data analysis. 
+
+# Recommended PC Specs
+
+I recommend running Sentinel on an always-on decent modern Windows PC in your clinic with at least a multi-core processor i5/i7 etc and on a PC with at least 4Gb of RAM. The software must be installed on PCs that have access to the TDS directory and all paths provided in the configuration steps below. 
+
 # Setting up Sentinel
+
+1. Download All files from GitHub.
+2. Install the software by running the installer in the for_redistribution folder
+3. Open Sentinel
+4. Click the settings cog in the top right and enter the required data and folder locations. I recommend gamma criteria of 2%/0.5mm for TrueBeam logfile comparison.
+5. 
+
+![Config](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/90356f3b-5cf5-4e0f-82d7-4925d1a16b4c)
+
 
 # Exploring your data
 
