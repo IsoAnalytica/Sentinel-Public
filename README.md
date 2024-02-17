@@ -27,7 +27,7 @@ I recommend running Sentinel on an always-on decent modern Windows PC in your cl
 1. Download All files from GitHub.
 2. Install the software by running the installer in the for_redistribution folder
 3. Open Sentinel
-4. Click the settings cog in the top right and enter the required data and folder locations. I recommend gamma criteria of 2%/0.5mm for TrueBeam logfile comparison.
+4. Click the settings cog in the top right and enter the required data and folder locations root directories. NOTE: I recommend gamma criteria of 2%/0.5mm for TrueBeam logfile comparison.
 5. Click Save Defaults to save your configuration which will load every time you run the software.
 6. Click the Start Monitoring toggle and switch to the ON position to begin monitoring.
 7. Toggle the Email Alerts switch to ON if you would like to receive email notifications for failed fields. NOTE that there is currently a problem where if the Windows PC is on the lock screen, no emails will be sent and the software will crash. If you cannot avoid lock screen timeouts, then I suggest turning email alerts off. Email alerts also require Microsoft Outlook to run.
