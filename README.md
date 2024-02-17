@@ -27,7 +27,7 @@ I recommend running Sentinel on an always-on decent modern Windows PC in your cl
 1. Download All files from GitHub.
 2. Install the software by running the installer in the **for_redistribution** folder
 3. Open **Sentinel**
-4. Click the **settings cog** in the top right and enter the required data and folder locations root directories. NOTE: I recommend gamma criteria of 2%/0.5mm for TrueBeam logfile comparison.
+4. Click the **settings cog** in the top left and enter the required data and folder location root directories. NOTE: I recommend gamma criteria of 2%/0.5mm for TrueBeam logfile comparison.
 5. Click **Save Defaults** to save your configuration which will load every time you run the software.
 6. Click Close to close the settings window
 7. Click the **Start Monitoring** toggle and switch to the ON position to begin monitoring.
