@@ -20,7 +20,7 @@ Sentinel monitors two directories, one where your plans are exported in DICOM fo
 
 # Recommended PC Specs
 
-I recommend running Sentinel on an always-on decent modern Windows PC in your clinic with at least a multi-core processor i5/i7 etc and on a PC with at least 4Gb of RAM. The software must be installed on PCs that have access to the TDS directory and all paths provided in the configuration steps below. 
+I recommend running Sentinel on an always-on decent modern Windows PC in your clinic with at least a multi-core processor i5/i7 etc and at least 8 Gb of RAM. The software must be installed on PCs that have access to the TDS directory and all paths provided in the configuration steps below. 
 
 # Setting up Sentinel
 
@@ -35,10 +35,9 @@ I recommend running Sentinel on an always-on decent modern Windows PC in your cl
 
 ![Config](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/90356f3b-5cf5-4e0f-82d7-4925d1a16b4c)
 
-
 # Exploring your data
 
-NOTE: I'm actively working on these so I will update and fix any bugs (which there are) as they are reported.
+NOTE: I'm actively working on these so I will update and fix any bugs (which there are) as they are reported and improve these with some nice pdf reporting in time.
 
 Sentinel provides several different apps to explore your data. MachineView lets you compare specific machine results and provides an overview of your machine results. To use MachineView click the MachineView button. Then select your machine from the drop-down list. You can then toggle Machine Data OVerlay to select multiple other machines also. Click Reset Filters to reset the state.
 
@@ -52,6 +51,14 @@ PatientView lets you view individual patient results by entering the patient ID.
 
 ![PatientView](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/bf56674e-bdd0-43e2-bd59-e035dfe279f7)
 
+OverView is just that - it provides an overview of the results for particular machines, patients, and plans. Select what you want an overview of with the drop-down lists and click Update Data to update the plots. Click Reset Filters to reset the drop-downs and selected data. 
+
 ![Overview](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/368bc4ad-dfa1-4009-bb99-45e47b6916f9)
 
+LiveStream provides a live feed of the results in graphical format as they come in. 
 
+![LiveStreamScreen](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/8a114942-a1c3-495c-b94a-8fc926929b69)
+
+# Parting Words
+
+If you enjoy this software and you find it useful please share it and let me know on Reddit or via info@efilmqa.com! I hope you enjoy exploring your machine performance and having realtime peace of mind while Sentinel watches over every patient's treatment.
