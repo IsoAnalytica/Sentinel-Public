@@ -46,15 +46,15 @@ Sentinel provides several different apps to explore your data. **MachineView** l
 
 ![MachineView](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/4725920c-30be-422f-87ca-fb055759fe53)
 
-**PlanView** lets you look into plan-class-specific results. You can select a plan type from the drop-down list, or enter in a string in the Enter Filter box and hit ENTER. For example, typing in "Brain" will show you all plan types with "Brain" in the plan name. You can then reset the table by clicking the Reset Filters button.
+**PlanView** lets you look into plan-class-specific results. You can select a plan type from the drop-down list, or enter in a string in the Enter Filter box and hit ENTER. For example, typing in "Brain" will show you all plan types with "Brain" in the plan name. Click **Update Data** to update the plots. You can then reset the table by clicking the **Reset Filters** button.
 
 ![PlanView](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/679b89ba-8c76-4d7f-9be4-38a2c6d56580)
 
-**PatientView** lets you view individual patient results by entering the patient ID. Clicking individual results in the table will show the expected fluence, the actual fluence, line profiles in x,y, and the GammaHistogram/ pass-rate. 
+**PatientView** lets you view individual patient results by entering the patient ID. Clicking individual results in the table will show the expected fluence, the actual fluence, line profiles in x,y, and the Gamma Histogram/ pass-rate. 
 
 ![PatientView](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/bf56674e-bdd0-43e2-bd59-e035dfe279f7)
 
-**OverView** is just that - it provides an overview of the results for particular machines, patients, and plans. Select what you want an overview of with the drop-down lists and click Update Data to update the plots. Click Reset Filters to reset the drop-downs and selected data. 
+**OverView** is just that - it provides an overview of the results for particular machines, patients, and plans. Select what you want an overview of with the drop-down lists and click **Update Data** to update the plots. Click **Reset Filters** to reset the drop-downs and selected data. 
 
 ![Overview](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/368bc4ad-dfa1-4009-bb99-45e47b6916f9)
 
