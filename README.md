@@ -25,13 +25,14 @@ I recommend running Sentinel on an always-on decent modern Windows PC in your cl
 # Setting up Sentinel
 
 1. Download All files from GitHub.
-2. Install the software by running the installer in the for_redistribution folder
-3. Open Sentinel
-4. Click the settings cog in the top right and enter the required data and folder locations root directories. NOTE: I recommend gamma criteria of 2%/0.5mm for TrueBeam logfile comparison.
-5. Click Save Defaults to save your configuration which will load every time you run the software.
-6. Click the Start Monitoring toggle and switch to the ON position to begin monitoring.
-7. Toggle the Email Alerts switch to ON if you would like to receive email notifications for failed fields. NOTE that there is currently a problem where if the Windows PC is on the lock screen, no emails will be sent and the software will crash. If you cannot avoid lock screen timeouts, then I suggest turning email alerts off. Email alerts also require Microsoft Outlook to run.
-8. That's it!
+2. Install the software by running the installer in the **for_redistribution** folder
+3. Open **Sentinel**
+4. Click the **settings cog** in the top right and enter the required data and folder locations root directories. NOTE: I recommend gamma criteria of 2%/0.5mm for TrueBeam logfile comparison.
+5. Click **Save Defaults** to save your configuration which will load every time you run the software.
+6. Click Close to close the settings window
+7. Click the **Start Monitoring** toggle and switch to the ON position to begin monitoring.
+8. Toggle the **Email Alerts** switch to ON if you would like to receive email notifications for failed fields. NOTE that there is currently a problem where if the Windows PC is on the lock screen, no emails will be sent and the software will crash. If you cannot avoid lock screen timeouts, then I suggest turning email alerts off. Email alerts also require Microsoft Outlook to run.
+9. That's it!
 
 ![Config](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/90356f3b-5cf5-4e0f-82d7-4925d1a16b4c)
 
@@ -39,23 +40,23 @@ I recommend running Sentinel on an always-on decent modern Windows PC in your cl
 
 NOTE: I'm actively working on these so I will update and fix any bugs (which there are) as they are reported and improve these with some nice pdf reporting in time.
 
-Sentinel provides several different apps to explore your data. MachineView lets you compare specific machine results and provides an overview of your machine results. To use MachineView click the MachineView button. Then select your machine from the drop-down list. You can then toggle Machine Data OVerlay to select multiple other machines also. Click Reset Filters to reset the state.
+Sentinel provides several different apps to explore your data. **MachineView** lets you compare specific machine results and provides an overview of your machine results. To use MachineView click the MachineView button. Then select your machine from the drop-down list. You can then toggle Machine Data OVerlay to select multiple other machines also. Click Reset Filters to reset the state.
 
 ![MachineView](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/4725920c-30be-422f-87ca-fb055759fe53)
 
-PlanView lets you look into plan-class-specific results. You can select a plan type from the drop-down list, or enter in a string in the Enter Filter box and hit ENTER. For example, typing in "Brain" will show you all plan types with "Brain" in the plan name. You can then reset the table by clicking the Reset Filters button.
+**PlanView** lets you look into plan-class-specific results. You can select a plan type from the drop-down list, or enter in a string in the Enter Filter box and hit ENTER. For example, typing in "Brain" will show you all plan types with "Brain" in the plan name. You can then reset the table by clicking the Reset Filters button.
 
 ![PlanView](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/679b89ba-8c76-4d7f-9be4-38a2c6d56580)
 
-PatientView lets you view individual patient results by entering the patient ID. Clicking individual results in the table will show the expected fluence, the actual fluence, line profiles in x,y, and the GammaHistogram/ pass-rate. 
+**PatientView** lets you view individual patient results by entering the patient ID. Clicking individual results in the table will show the expected fluence, the actual fluence, line profiles in x,y, and the GammaHistogram/ pass-rate. 
 
 ![PatientView](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/bf56674e-bdd0-43e2-bd59-e035dfe279f7)
 
-OverView is just that - it provides an overview of the results for particular machines, patients, and plans. Select what you want an overview of with the drop-down lists and click Update Data to update the plots. Click Reset Filters to reset the drop-downs and selected data. 
+**OverView** is just that - it provides an overview of the results for particular machines, patients, and plans. Select what you want an overview of with the drop-down lists and click Update Data to update the plots. Click Reset Filters to reset the drop-downs and selected data. 
 
 ![Overview](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/368bc4ad-dfa1-4009-bb99-45e47b6916f9)
 
-LiveStream provides a live feed of the results in graphical format as they come in. 
+**LiveStream** provides a live feed of the results in graphical format as they come in. 
 
 ![LiveStreamScreen](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/8a114942-a1c3-495c-b94a-8fc926929b69)
 
