@@ -64,8 +64,8 @@ Sentinel provides several different apps to explore your data. **MachineView** l
 
 ![LiveStreamScreen](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/8a114942-a1c3-495c-b94a-8fc926929b69)
 
-# Parting Words
+# Enjoy and Share
 
 If you enjoy this software and you find it useful please share it and let me know on Reddit or here on Git! I hope you enjoy exploring your machine performance and having realtime peace of mind while Sentinel watches over every patient's treatment.
 
-if you'd like to help with creating a method to get the Elekta iCom files automatically off the linac and onto the clinic network that would solve the Varian only problem and all machines would be covered :). If you run into any issues or would like to let me know how the software is working for you. Please send me an email at info@efilmqa.com
+if you'd like to help with creating a method to get the Elekta iCom files automatically off the linac and onto the clinic network that would solve the Varian only problem and all machines would be covered. If you run into any issues or would like to let me know how the software is working for you. Please send me an email at info@efilmqa.com
