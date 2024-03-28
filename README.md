@@ -38,7 +38,7 @@ I recommend running Sentinel on an always-on decent modern Windows PC in your cl
     
 ![Config](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/6a153d0d-749b-42dd-9ce8-cd6f32e0aaeb)
 
-
+NOTE: *****PLEASE DO NOT USE PROTECTED DIRECTORIES LIKE C:\USERS\XXXX\OUTPUT ETC FOR THE OUPTUT DIRECTORIES AS THE SOFTWARE CANNOT WRITE TO THESE DIRECTORIES*****
 
 # Exploring your data
 
