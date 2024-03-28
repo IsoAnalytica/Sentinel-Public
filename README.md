@@ -28,13 +28,14 @@ I recommend running Sentinel on an always-on decent modern Windows PC in your cl
 
 1. Download All files from GitHub.
 2. Install the software by running the installer in the **for_redistribution** folder
-3. Open **Sentinel** *some error messages might pop up the first time as the default directories won't exist, just click **Ok**
-4. Click the **settings cog** in the top left and enter the required data and folder location root directories. NOTE: I recommend gamma criteria of 2%/0.5mm for TrueBeam logfile comparison.
-5. Click **Save Defaults** to save your configuration which will load every time you run the software.
-6. Click **Close** to close the settings window
-7. Click the **Start Monitoring** toggle and switch to the ON position to begin monitoring.
-8. Toggle the **Email Alerts** switch to ON if you would like to receive email notifications for failed fields. NOTE that there is currently a problem where if the Windows PC is on the lock screen, no emails will be sent and the software will crash. If you cannot avoid lock screen timeouts, then I suggest turning email alerts off. Email alerts also require Microsoft Outlook to run.
-9. That's it!
+3. Open the for_testing folder and create a shortcut to the Sentinel.exe file in that folder. NOTE the software won't work if you run the installed executable in Program Files. Use the installer to download the Matlab runtime then run the software from the for_testing folder on your desktop or other location.
+4. Open **Sentinel** *some error messages might pop up the first time as the default directories won't exist, just click **Ok**
+5. Click the **settings cog** in the top left and enter the required data and folder location root directories. NOTE: I recommend gamma criteria of 2%/0.5mm for TrueBeam logfile comparison.
+6. Click **Save Defaults** to save your configuration which will load every time you run the software.
+7. Click **Close** to close the settings window
+8. Click the **Start Monitoring** toggle and switch to the ON position to begin monitoring.
+9. Toggle the **Email Alerts** switch to ON if you would like to receive email notifications for failed fields. NOTE that there is currently a problem where if the Windows PC is on the lock screen, no emails will be sent and the software will crash. If you cannot avoid lock screen timeouts, then I suggest turning email alerts off. Email alerts also require Microsoft Outlook to run.
+10. That's it!
     
 ![Config](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/6a153d0d-749b-42dd-9ce8-cd6f32e0aaeb)
 
