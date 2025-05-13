@@ -1,8 +1,8 @@
 # Sentinel
 
 Sentinel is an automated log-file analysis application for Varian linacs (TrueBeam, Halcyon, Edge). 
-
-NOTE: *It works for Elekta machines also but only if you have a way to get iCom-Vx files automatically pushed to a folder on the network that Sentinel can see. If you have a simple method to do this, it works for Elekta machines also!*
+> [!NOTE]
+*It works for Elekta machines also but only if you have a way to get iCom-Vx files automatically pushed to a folder on the network that Sentinel can see. If you have a simple method to do this, it works for Elekta machines also!*
 
 # Introduction
 
@@ -22,7 +22,9 @@ Sentinel monitors two directories, one where your plans are exported in DICOM fo
 
 # Recommended PC Specs
 
-I recommend running Sentinel on an always-on decent modern Windows PC in your clinic with at least a multi-core processor i5/i7 etc and at least 8 Gb of RAM. The software must be installed on PCs that have access to the TDS directory and all paths provided in the configuration steps below. If you're worried about security. Sentinel does not connect to the internet and only runs locally. 
+I recommend running Sentinel on an always-on decent modern Windows PC in your clinic with at least a multi-core processor i5/i7 etc and at least 8 Gb of RAM. 
+> [!IMPORTANT]
+The software must be installed on PCs that have access to the TDS directory and all paths provided in the configuration steps below. If you're worried about security. Sentinel does not connect to the internet and only runs locally. 
 
 # Setting up Sentinel
 
