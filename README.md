@@ -2,7 +2,7 @@
 
 Sentinel is an automated log-file analysis application for Varian linacs (TrueBeam, Halcyon, Edge). 
 > [!NOTE]
-*It works for Elekta machines also but only if you have a way to get iCom-Vx files automatically pushed to a folder on the network that Sentinel can see. If you have a simple method to do this, it works for Elekta machines also!*
+> *It works for Elekta machines also but only if you have a way to get iCom-Vx files automatically pushed to a folder on the network that Sentinel can see. If you have a simple method to do this, it works for Elekta machines also!*
 
 # Introduction
 
@@ -24,7 +24,7 @@ Sentinel monitors two directories, one where your plans are exported in DICOM fo
 
 I recommend running Sentinel on an always-on decent modern Windows PC in your clinic with at least a multi-core processor i5/i7 etc and at least 8 Gb of RAM. 
 > [!IMPORTANT]
-The software must be installed on PCs that have access to the TDS directory and all paths provided in the configuration steps below. If you're worried about security. Sentinel does not connect to the internet and only runs locally. 
+> The software must be installed on PCs that have access to the TDS directory and all paths provided in the configuration steps below. If you're worried about security. Sentinel does not connect to the internet and only runs locally. 
 
 # Setting up Sentinel
 
@@ -38,14 +38,18 @@ The software must be installed on PCs that have access to the TDS directory and 
 8. Click the **Start Monitoring** toggle and switch to the ON position to begin monitoring.
 9. Toggle the **Email Alerts** switch to ON if you would like to receive email notifications for failed fields. NOTE that there is currently a problem where if the Windows PC is on the lock screen, no emails will be sent and the software will crash. If you cannot avoid lock screen timeouts, then I suggest turning email alerts off. Email alerts also require Microsoft Outlook to run.
 10. That's it!
+
+>[!TIP]
+> Turn off email alerts if the software fails to run on your work environment, there are commonly restrictions in place.
     
 ![Config](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/6a153d0d-749b-42dd-9ce8-cd6f32e0aaeb)
 
-NOTE: *****PLEASE DO NOT USE PROTECTED DIRECTORIES LIKE C:\USERS\XXXX\OUTPUT ETC FOR THE OUPTUT DIRECTORIES AS THE SOFTWARE CANNOT WRITE TO THESE DIRECTORIES*****
+> [!WARNING]
+> NOTE: *****PLEASE DO NOT USE PROTECTED DIRECTORIES LIKE C:\USERS\XXXX\OUTPUT ETC FOR THE OUPTUT DIRECTORIES AS THE SOFTWARE CANNOT WRITE TO THESE DIRECTORIES*****
 
 # Exploring your data
-
-NOTE: I'm actively working on these so I will update and fix any bugs (which there are) as they are reported and improve these with some nice pdf reporting in time.
+>[!NOTE]
+>I'm actively working on these so I will update and fix any bugs (which there are) as they are reported and improve these with some nice pdf reporting in time.
 
 Sentinel provides several different apps to explore your data. **MachineView** lets you compare specific machine results and provides an overview of your machine results. To use MachineView click the MachineView button. Then select your machine from the drop-down list. You can then toggle Machine Data Overlay to select multiple other machines also. Click Reset Filters to reset the state.
 
