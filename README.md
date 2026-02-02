@@ -75,7 +75,7 @@ Sentinel provides several different apps to explore your data. **MachineView** l
 
 **Complexity"" provides a dashboard of the plan complexity data tabulated in the ResultsPlans and ResultsBeams csv files.
 
-
+[![Project Screenshot](Complexity_Git.png)]
 
 # Enjoy and Share
 
