@@ -73,9 +73,9 @@ Sentinel provides several different apps to explore your data. **MachineView** l
 
 ![LiveStreamScreen](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/8a114942-a1c3-495c-b94a-8fc926929b69)
 
-**Complexity"" provides a dashboard of the plan complexity data tabulated in the ResultsPlans and ResultsBeams csv files.
+**Complexity** provides a dashboard of the plan complexity data tabulated in the ResultsPlans and ResultsBeams csv files.
 
-[![Project Screenshot](Complexity_Git.png)]
+![Project Screenshot](Complexity_Git.png)
 
 # Enjoy and Share
 
