@@ -1,0 +1,14 @@
+{
+	"RuntimeDependencies": [
+		{"ID":35000, "DisplayName":"MATLAB Extended Runtime Addon", "Optional":"no"},
+		{"ID":35002, "DisplayName":"MATLAB Graphics Runtime Addon", "Optional":"no"},
+		{"ID":35003, "DisplayName":"MATLAB Standard Runtime Addon", "Optional":"no"},
+		{"ID":35010, "DisplayName":"MATLAB Base Runtime", "Optional":"no"},
+		{"ID":35112, "DisplayName":"Deep Learning Toolbox Runtime Addon", "Optional":"no"},
+		{"ID":35117, "DisplayName":"Image Processing Toolbox Runtime Addon", "Optional":"no"},
+		{"ID":35119, "DisplayName":"Statistics and Machine Learning Toolbox Runtime Addon", "Optional":"no"},
+		{"ID":35144, "DisplayName":"MATLAB Report Generator Toolbox Runtime Addon", "Optional":"no"},
+		{"ID":35180, "DisplayName":"Parallel Computing Toolbox Standard Runtime Addon", "Optional":"no"},
+		{"ID":35380, "DisplayName":"Parallel Computing Toolbox GPU Runtime Addon", "Optional":"yes"}
+	]
+}
