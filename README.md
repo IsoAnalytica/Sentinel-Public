@@ -31,8 +31,8 @@ I recommend running Sentinel on an always-on decent modern Windows PC in your cl
 # Setting up Sentinel
 
 1. Download All files from GitHub.
-2. Install the software by running the installer in the **for_redistribution** folder
-3. Open the for_testing folder and create a shortcut to the Sentinel.exe file in that folder. NOTE the software won't work if you run the installed executable in Program Files. Use the installer to download the Matlab runtime then run the software from the for_testing folder on your desktop or other location.
+2. Install the software by running the installer in the **package** folder. 
+3. Open the build folder and create a shortcut to the Sentinel.exe file in that folder. NOTE the software won't work if you run the installed executable in Program Files. Use the installer to download the Matlab runtime then run the software from the build folder on your desktop or other location.
 4. Open **Sentinel** *some error messages might pop up the first time as the default directories won't exist, just click **Ok**
 5. Click the **settings cog** in the top left and enter the required data and folder location root directories. NOTE: I recommend gamma criteria of 2%/0.5mm for TrueBeam logfile comparison.
 6. Click **Save Defaults** to save your configuration which will load every time you run the software.
@@ -72,6 +72,8 @@ Sentinel provides several different apps to explore your data. **MachineView** l
 **LiveStream** provides a live feed of the results in graphical format as they come in. 
 
 ![LiveStreamScreen](https://github.com/IsoAnalytica/Sentinel-Public/assets/101543023/8a114942-a1c3-495c-b94a-8fc926929b69)
+
+**Commplexity"" provides a dashboard of the plan complexity data tabulated in the ResultsPlans and ResultsBeams csv files.
 
 # Enjoy and Share
 
